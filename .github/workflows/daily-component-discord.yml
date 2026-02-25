@@ -1,8 +1,6 @@
 name: Daily Component Pick
 
 on:
-  schedule:
-    - cron: '0 14 * * *' # 14:00 UTC (11:00 AM Chile)
   workflow_dispatch:
 
 permissions:
