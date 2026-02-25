@@ -1,8 +1,6 @@
 name: Daily General Engagement
 
 on:
-  schedule:
-    - cron: '0 16 * * *' # 16:00 UTC (13:00 PM Chile) - 2 hours after component pick
   workflow_dispatch:
 
 permissions:
