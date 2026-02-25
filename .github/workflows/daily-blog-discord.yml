@@ -1,8 +1,6 @@
 name: Daily Blog Share
 
 on:
-  schedule:
-    - cron: '0 15 * * *' # 15:00 UTC (12:00 PM Chile) - 1 hour after component pick
   workflow_dispatch:
 
 permissions:
